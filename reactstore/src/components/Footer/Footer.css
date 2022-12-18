@@ -54,7 +54,7 @@ ul{
     /* the element is positioned absolutely to its first positioned parent */
     left: 0;
     bottom: -10px;
-    background-color: green;
+    background-color: rgb(192, 18, 18);
     height: 2.5px;
     box-sizing: border-box;
     width: 60px;
@@ -76,7 +76,7 @@ ul{
 }
 
 .footer-col ul li a:hover{
-    color: green;
+    color: rgb(230, 17, 17);
 }
 .footer-col .social-links a{
     display: inline-block;
