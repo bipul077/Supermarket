@@ -10,7 +10,7 @@
 :root{
 	--bg-color: rgb(156, 156, 156); 
 	--text-color: #fff;
-	--main-color: rgb(255, 28, 28);
+	--main-color: rgb(255, 8, 8);
 }
 body{
 	min-height: 100vh;
@@ -27,8 +27,7 @@ header{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	/* background: rgba(0,0,0,.5); */
-    background: rgb(59, 59, 59);
+	background: rgba(0,0,0,.5);
 	padding: 28px 12%;
 	transition: all .50s ease;
 }
