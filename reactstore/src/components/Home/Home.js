@@ -26,7 +26,7 @@ export default function Home() {
         <section id="top">
             <img src="static/images/bg.png" id="bg"/>
             <h2 id="text">Supermarket</h2>
-            <img src="static/images/mans.png" id="man" />
+            <img src="static/images/man.png" id="man" />
             {/* <img src="https://aryan-tayal.github.io/Mountains-Parallax/clouds_1.png" id="clouds_1"/>
             <img src="https://aryan-tayal.github.io/Mountains-Parallax/clouds_2.png" id="clouds_2"/> */}
             <img src="static/images/left.png" id="mountain_left"/>
