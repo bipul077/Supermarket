@@ -4,6 +4,7 @@ import Footer from './components/Footer/Footer';
 import Products from './components/Products/Products';
 import Home from './components/Home/Home';
 import About from './components/About/About';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 import{
   BrowserRouter as Router,
   Routes,
@@ -13,6 +14,7 @@ function App() {
   return (
     <div>  
       <Router>
+      <ScrollToTop/>
       <Navbar/>
         <Routes>
           <Route exact path="/" element={<Home/>}/>
