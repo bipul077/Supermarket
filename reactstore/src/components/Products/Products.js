@@ -2,46 +2,69 @@ import React from 'react'
 import "./Products.css"
 export default function Products() {
   return (
-    <div>
-      <div className="productcontent">
-        <h1>asdf</h1>
-       <div class="Photos">
-            <div class="gallery">
+    <>
+      <div className="container prod">
+        <div className="row">
+       <div className="Photos">
+            <div className="gallery">
                 <img src="static/images/chocos.png"/>
-                <div class="des">Chocos<br/>Rs 200</div>
+                <div className="des">Chocos<br/><span>Rs 200</span></div>
             </div>
         </div>
-        <div class="Photos">
-            <div class="gallery">
+        <div className="Photos">
+            <div className="gallery">
                 <img src="static/images/kurkure.png"/>
-                <div class="des">Chocos<br/>Rs 200</div>
+                <div className="des">Kurkure<br/><span>Rs 60</span></div>
             </div>
         </div>
-        <div class="Photos">
-            <div class="gallery">
+        <div className="Photos">
+            <div className="gallery">
                 <img src="static/images/lays.jpg"/>
-                <div class="des">Chocos<br/>Rs 200</div>
+                <div className="des">Lays<br/><span>Rs 60</span></div>
             </div>
         </div>
-        <div class="Photos">
-            <div class="gallery">
+        <div className="Photos">
+            <div className="gallery">
                 <img src="static/images/cheese.png"/>
-                <div class="des">Chocos<br/>Rs 200</div>
+                <div className="des">Cheese<br/><span>Rs 200</span></div>
             </div>
         </div>
-        <div class="Photos">
-            <div class="gallery">
+        <div className="Photos">
+            <div className="gallery">
                 <img src="static/images/milk.png"/>
-                <div class="des">Chocos<br/>Rs 200</div>
+                <div className="des">Milk<br/><span>Rs 200</span></div>
             </div>
         </div>
-        <div class="Photos">
-            <div class="gallery">
+        <div className="Photos">
+            <div className="gallery">
                 <img src="static/images/prime.webp"/>
-                <div class="des">Chocos<br/>Rs 200</div>
+                <div className="des">Prime Hydration<br/><span>Rs 399</span></div>
             </div>
         </div>
-      </div>
-    </div>
+        <div className="Photos">
+            <div className="gallery">
+                <img src="static/images/prime.webp"/>
+                <div className="des">Prime Hydration<br/><span>Rs 399</span></div>
+            </div>
+        </div>
+        <div className="Photos">
+            <div className="gallery">
+                <img src="static/images/prime.webp"/>
+                <div className="des">Prime Hydration<br/><span>Rs 399</span></div>
+            </div>
+        </div>
+        <div className="Photos">
+            <div className="gallery">
+                <img src="static/images/prime.webp"/>
+                <div className="des">Prime Hydration<br/><span>Rs 399</span></div>
+            </div>
+        </div>
+        </div>
+        </div>
+        <div className="loadmore text-center mb-2">
+            <button className="btn btn-danger">Load More</button>
+        </div>
+        </>
+      
   )
 }

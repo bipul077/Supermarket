@@ -15,7 +15,7 @@ export default function Navbar() {
   return (
     <div>
       <header>
-            <Link to='#' className='logo'><i class="ri-home-7-line"></i><span>Logo</span></Link>
+            <Link to='#' className='logo'><i className="ri-home-7-line"></i><span>Logo</span></Link>
             <ul className='navbar'>
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="#">About Us</Link></li>
