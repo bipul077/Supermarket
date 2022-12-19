@@ -19,6 +19,7 @@ export default function Popular() {
 						<div class="col-md-6 col-lg-4 col-xl-3">
 								<div id="product-1" class="single-product">
 										<div class="part-1">
+											<img src="static/images/chocos.png"/>
 												<ul>
 														<li><a href="#"><i class="ri-shopping-cart-2-line"></i></a></li>
 												</ul>
@@ -34,6 +35,7 @@ export default function Popular() {
 						<div class="col-md-6 col-lg-4 col-xl-3">
 								<div id="product-2" class="single-product">
 										<div class="part-1">
+										<img src="static/images/chocos.png"/>
 												<span class="discount">15% off</span>
 												<ul>
                                                 <li><a href="#"><i class="ri-shopping-cart-2-line"></i></a></li>
@@ -49,6 +51,7 @@ export default function Popular() {
 						<div class="col-md-6 col-lg-4 col-xl-3">
 								<div id="product-3" class="single-product">
 										<div class="part-1">
+										<img src="static/images/chocos.png"/>
 												<ul>
                                                 <li><a href="#"><i class="ri-shopping-cart-2-line"></i></a></li>
 												</ul>
@@ -64,6 +67,7 @@ export default function Popular() {
 						<div class="col-md-6 col-lg-4 col-xl-3">
 								<div id="product-4" class="single-product">
 										<div class="part-1">
+										<img src="static/images/chocos.png"/>
 												<span class="new">new</span>
 												<ul>
                                                 <li><a href="#"><i class="ri-shopping-cart-2-line"></i></a></li>
@@ -79,6 +83,7 @@ export default function Popular() {
 						<div class="col-md-6 col-lg-4 col-xl-3">
 								<div id="product-1" class="single-product">
 										<div class="part-1">
+										<img src="static/images/chocos.png"/>
 												<ul>
                                                 <li><a href="#"><i class="ri-shopping-cart-2-line"></i></a></li>
 												</ul>
@@ -94,6 +99,7 @@ export default function Popular() {
 						<div class="col-md-6 col-lg-4 col-xl-3">
 								<div id="product-2" class="single-product">
 										<div class="part-1">
+										<img src="static/images/chocos.png"/>
 												<span class="discount">15% off</span>
 												<ul>
                                                 <li><a href="#"><i class="ri-shopping-cart-2-line"></i></a></li>
@@ -109,6 +115,7 @@ export default function Popular() {
 						<div class="col-md-6 col-lg-4 col-xl-3">
 								<div id="product-3" class="single-product">
 										<div class="part-1">
+										<img src="static/images/chocos.png"/>
 												<ul>
                                                 <li><a href="#"><i class="ri-shopping-cart-2-line"></i></a></li>
 												</ul>
@@ -124,6 +131,7 @@ export default function Popular() {
 						<div class="col-md-6 col-lg-4 col-xl-3">
 								<div id="product-4" class="single-product">
 										<div class="part-1">
+										<img src="static/images/chocos.png"/>
 												<span class="new">new</span>
 												<ul>
                                                 <li><a href="#"><i class="ri-shopping-cart-2-line"></i></a></li>
