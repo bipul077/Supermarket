@@ -5,7 +5,6 @@
     box-sizing: border-box;
     font-family: 'Montserrat', serif;
 }
-
 #top{
     position: relative;
     width: 100%;
@@ -42,7 +41,7 @@ section img{
 #text{
     position: relative;
     color:white;
-    font-size: 10rem;
+    font-size: 6rem;
 }
 #sec{
     padding:100px;
@@ -59,6 +58,30 @@ section img{
   font-weight:300;
     color:#20496a;
 }
-.maincontent{
-    position: relative;
-}
+
+@media screen and (max-width: 480px) {
+    /* .asection{
+        height: 33vh;
+    } */
+    #mountain_left,#mountain_right,#mounain_back{
+        max-width: 100%;
+        /* height: auto; */
+    }
+    /* #man{
+        display: none;
+    } */
+    #text{
+        font-size:xx-large;
+    }
+    #sec{
+        text-align: center;
+        font-size: 16px;
+        padding: 30px 15px;
+        width: auto;
+    }
+    #sec h2{
+        font-size:x-large;
+        right: -50vh;
+        top: 16%;
+    }
+  }
