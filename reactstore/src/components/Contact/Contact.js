@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <div className='concontainer'>
         <div className='contact-box'>
-            <div className='left'></div>
+            <div className='contactleft'></div>
             <div className='right'>
                 <h2>Contact Us</h2>
                 <input type="text" className="field" placeholder="Your name"/>

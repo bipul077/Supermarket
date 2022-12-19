@@ -18,12 +18,12 @@
     background-color: #fff;
     box-shadow: 1px 2px 5rem 5px rgb(248, 139, 139);
 }
-.left{
+.contactleft{
     height: 100%;
     background: url("images/contactgirl.jpg") no-repeat center;
     background-size: cover;
 }
-.left img{
+.contactleft img{
     object-fit: cover;
 }
 .right{

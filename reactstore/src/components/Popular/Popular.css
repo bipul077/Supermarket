@@ -42,6 +42,13 @@ a:hover {
     margin-bottom: 20px;
     overflow: hidden;
 }
+/* .section-products .single-product img:hover .part-1::before {
+    transform: scale(1.2,1.2) rotate(5deg);
+}
+.section-products .single-product .part-1::before{
+    background-size: cover;
+    transition: all 0.3s;
+} */
 
 .section-products .single-product .part-1::before {
 		position: absolute;
@@ -54,28 +61,28 @@ a:hover {
 		transition: all 0.3s;
 }
 
-.section-products .single-product:hover .part-1::before {
+.section-products .single-product img:hover .part-1::before {
 		transform: scale(1.2,1.2) rotate(5deg);
 }
 
 .section-products #product-1 .part-1::before {
-    background: url("https://i.ibb.co/L8Nrb7p/1.jpg") no-repeat center;
+    /* background: url("https://i.ibb.co/L8Nrb7p/1.jpg") no-repeat center; */
     background-size: cover;
 		transition: all 0.3s;
 }
 
 .section-products #product-2 .part-1::before {
-    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    /* background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center; */
     background-size: cover;
 }
 
 .section-products #product-3 .part-1::before {
-    background: url("https://i.ibb.co/L8Nrb7p/1.jpg") no-repeat center;
+    /* background: url("https://i.ibb.co/L8Nrb7p/1.jpg") no-repeat center; */
     background-size: cover;
 }
 
 .section-products #product-4 .part-1::before {
-    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
+    /* background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center; */
     background-size: cover;
 }
 
@@ -158,4 +165,10 @@ a:hover {
     height: 1px;
     background-color: #444444;
     transform: translateY(-50%);
+}
+.part-1 img{
+    transition: transform .5s ease;
+}
+.part-1:hover img{
+    transform: scale(1.1);
 }
