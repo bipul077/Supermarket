@@ -1,4 +1,5 @@
 import React,{useEffect} from 'react'
+import Popular from '../Popular/Popular';
 import "./Home.css"
 
 export default function Home() {
@@ -26,7 +27,7 @@ export default function Home() {
         <section id="top">
             <img src="static/images/bg.png" id="bg"/>
             <h2 id="text">Supermarket</h2>
-            <img src="static/images/mansm.png" id="man"/>
+            <img src="static/images/man.png" id="man"/>
             {/* <img src="https://aryan-tayal.github.io/Mountains-Parallax/clouds_1.png" id="clouds_1"/>
             <img src="https://aryan-tayal.github.io/Mountains-Parallax/clouds_2.png" id="clouds_2"/> */}
             <img src="static/images/leftf.png" id="mountain_left"/>
@@ -38,6 +39,7 @@ export default function Home() {
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. A earum ipsam laboriosam mollitia, architecto esse voluptates eligendi provident soluta et cupiditate sit nisi at dolorum iure dignissimos cumque amet necessitatibus blanditiis? Earum assumenda soluta reiciendis recusandae, incidunt tenetur nihil adipisci corrupti, quibusdam ullam numquam iusto veritatis facilis ab dicta, nobis inventore eius magni eveniet quo? Repellat nobis quos, facilis quam perspiciatis asperiores delectus, aliquid nihil molestias in at modi nulla minima deleniti. Minima aliquid magnam libero reiciendis et, nesciunt repellendus eum vel rerum alias ea enim fugiat eius. Quae dolores, amet nam ab officiis corrupti sequi eligendi quo culpa illum.
             </p>
         </section>
+    <Popular/>
     </div>
   )
 }
