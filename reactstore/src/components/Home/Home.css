@@ -46,7 +46,7 @@ section img{
 #text{
     position: relative;
     color:white;
-    font-size: 10rem;
+    font-size: 6rem;
 }
 #sec{
     padding:100px;
@@ -62,9 +62,6 @@ section img{
   line-height:2rem;
   font-weight:300;
     color:#20496a;
-}
-.maincontent{
-    position: relative;
 }
 
 @media screen and (max-width: 480px) {
