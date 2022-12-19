@@ -115,7 +115,7 @@ export default function Popular() {
 						<div class="col-md-6 col-lg-4 col-xl-3">
 								<div id="product-3" class="single-product">
 										<div class="part-1">
-										<img src="static/images/prime.webp"/>
+										<img src="static/images/prime.png"/>
 												<ul>
                                                 <li><a href="#"><i class="ri-shopping-cart-2-line"></i></a></li>
 												</ul>

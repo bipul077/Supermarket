@@ -37,25 +37,25 @@ export default function Products() {
         </div>
         <div className="Photos">
             <div className="gallery">
-                <img src="static/images/prime.webp"/>
+                <img src="static/images/prime.png"/>
                 <div className="des">Prime Hydration<br/><span>Rs 399</span></div>
             </div>
         </div>
         <div className="Photos">
             <div className="gallery">
-                <img src="static/images/prime.webp"/>
+                <img src="static/images/prime.png"/>
                 <div className="des">Prime Hydration<br/><span>Rs 399</span></div>
             </div>
         </div>
         <div className="Photos">
             <div className="gallery">
-                <img src="static/images/prime.webp"/>
+                <img src="static/images/prime.png"/>
                 <div className="des">Prime Hydration<br/><span>Rs 399</span></div>
             </div>
         </div>
         <div className="Photos">
             <div className="gallery">
-                <img src="static/images/prime.webp"/>
+                <img src="static/images/prime.png"/>
                 <div className="des">Prime Hydration<br/><span>Rs 399</span></div>
             </div>
         </div>
