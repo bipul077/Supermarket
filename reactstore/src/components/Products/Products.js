@@ -65,6 +65,5 @@ export default function Products() {
             <button className="btn btn-danger">Load More</button>
         </div>
         </>
-      
   )
 }
