@@ -16,7 +16,7 @@
     align-items: center;
     text-align: center;
     background-color: #fff;
-    box-shadow: 1px 2px 5rem 5px rgb(102, 102, 102);
+    box-shadow: 1px 2px 5rem 5px rgb(82, 82, 82);
 }
 .contactleft{
     height: 100%;
@@ -50,6 +50,7 @@ h2{
     padding: 0.5rem 1rem;
     outline: none;
     border: 2px solid rgba(0,0,0,0,);
+    border-style: solid; 
     font-size: 1.1rem;
     margin-bottom: 22px;
     transition: .3s;
