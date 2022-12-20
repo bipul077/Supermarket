@@ -155,3 +155,7 @@ ul{
 .maincontent{
 	position: relative;
 }
+img, svg {
+    vertical-align: middle;
+    height: 40px;
+}
