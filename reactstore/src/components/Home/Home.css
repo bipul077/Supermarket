@@ -54,9 +54,10 @@ section img{
 }
 #sec p{
     font-size: 1.2rem;
-  line-height:2rem;
-  font-weight:300;
+    line-height:2rem;
+    font-weight:300;
     color:#20496a;
+    text-align: justify;
 }
 
 @media screen and (max-width: 480px) {
